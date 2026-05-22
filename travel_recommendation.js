@@ -11,7 +11,9 @@ const categoryAliases = {
   beach: "beaches",
   beaches: "beaches",
   temple: "temples",
-  temples: "temples"
+  temples: "temples",
+  country: "countries",
+  countries: "countries"
 };
 
 async function loadTravelData() {
@@ -36,6 +38,10 @@ function recommendationMatches(query) {
   const directCategory = categoryAliases[query];
 
   if (directCategory) {
+    if (directCategory === "countries") {
+      return travelData.countries.map((country) => country.cities[0]);
+    }
+
     return travelData[directCategory].slice(0, 2);
   }
 
