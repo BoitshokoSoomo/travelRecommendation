@@ -131,7 +131,16 @@ contactForm.addEventListener("submit", (event) => {
 });
 
 loadTravelData()
-  .then(() => renderCards([...travelData.beaches.slice(0, 1), ...travelData.temples.slice(0, 1)]))
+  .then(() => {
+    const initialSearch = new URLSearchParams(window.location.search).get("search");
+
+    if (initialSearch) {
+      searchInput.value = initialSearch;
+      return handleSearch();
+    }
+
+    renderCards([...travelData.beaches.slice(0, 1), ...travelData.temples.slice(0, 1)]);
+  })
   .catch(() => {
     results.innerHTML = `
       <article class="empty-state">
