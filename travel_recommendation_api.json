@@ -1,0 +1,92 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=900&q=80",
+          "description": "A vibrant harbor city known for the Sydney Opera House, coastal walks, and bright waterfront dining."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1545044846-351ba102b6d5?auto=format&fit=crop&w=900&q=80",
+          "description": "A creative city with laneway cafes, galleries, gardens, and a celebrated arts and food scene."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=900&q=80",
+          "description": "A high-energy capital where neon streets, serene shrines, design, and extraordinary food meet."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80",
+          "description": "A graceful historic city famous for temples, gardens, tea houses, and seasonal cherry blossoms."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=900&q=80",
+          "description": "A lively coastal city with dramatic mountains, legendary beaches, music, and festival energy."
+        },
+        {
+          "name": "Sao Paulo, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1543059080-f9b1272213d5?auto=format&fit=crop&w=900&q=80",
+          "description": "Brazil's cultural and business hub, packed with museums, restaurants, nightlife, and street art."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=900&q=80",
+      "description": "A vast temple complex with intricate stonework, lotus towers, and sunrise views over ancient ruins."
+    },
+    {
+      "id": 2,
+      "name": "Kiyomizu-dera, Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=900&q=80",
+      "description": "A hillside Kyoto temple known for its wooden stage, city views, and surrounding historic lanes."
+    },
+    {
+      "id": 3,
+      "name": "Wat Arun, Thailand",
+      "imageUrl": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=80",
+      "description": "A riverside Bangkok landmark with porcelain mosaics, soaring spires, and beautiful evening light."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+      "description": "A lagoon paradise known for turquoise water, coral reefs, and peaceful overwater bungalows."
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&w=900&q=80",
+      "description": "A famous Rio shoreline with mountain views, beach culture, kiosks, and a lively promenade."
+    },
+    {
+      "id": 3,
+      "name": "Navagio Beach, Greece",
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=900&q=80",
+      "description": "A bright cove framed by cliffs and blue water, ideal for boat trips and unforgettable photos."
+    }
+  ]
+}
